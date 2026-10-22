@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 
 base = Path(r"C:\Users\Francisco C. Prince\OneDrive\Paper QRNG\Data_fromChip") ### You have to correct to your path and Name
-arquivo1 = base / "ClassicalNoiseDark.csv"
-arquivo2 = base / "totalNoise7mW.csv"
+arquivo1 = base / "ClassicalNoiseDark.csv"  # Correcto to the name of your file
+arquivo2 = base / "totalNoise7mW.csv" # correct to the name of your file
 
 print("Arquivo1 existe?", arquivo1.exists(), arquivo1)
 print("Arquivo2 existe?", arquivo2.exists(), arquivo2)
