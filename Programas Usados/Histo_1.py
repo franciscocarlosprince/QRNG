@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # =========================
 from pathlib import Path
 
-base = Path(r"C:\Users\Francisco C. Prince\OneDrive\Paper QRNG\Data_fromChip") ### You have to correct to your path and Name
+base = Path(r"C:\Users\Francisco C. Prince\OneDrive\Paper QRNG\Data_fromChip") ### You have to correct to your path
 arquivo1 = base / "ClassicalNoiseDark.csv"  # Correct to the name of your file
 arquivo2 = base / "totalNoise7mW.csv" # correct to the name of your file
 
